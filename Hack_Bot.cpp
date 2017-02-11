@@ -1,4 +1,3 @@
-//&
 #include<stdio.h>
 #include<stdlib.h>
 #include<iostream>
@@ -7,6 +6,14 @@
 #include<cstdio>
 
 using namespace std;
+
+//golbal var
+string ipadd1;
+string ipadd2;
+string ipadd3;
+string ipadd4;
+string mystr;
+string mystr;
 
 int main()
 {
@@ -29,7 +36,6 @@ cin >> numatt;
 if (numatt == "1")
 {
 	 cout << "Enter the ip address of the system Hack_Bot should test:";
-	string mystr;
 	cin >> mystr;
 }
 system("");
